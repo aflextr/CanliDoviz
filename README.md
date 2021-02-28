@@ -8,7 +8,7 @@ chmod +x install.sh
 
 # Çalıştırma:
 
-python3 doviz.py
+python3 piyasa.py
 
 # Bağımlılıklar:
 
