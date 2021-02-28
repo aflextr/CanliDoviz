@@ -1,5 +1,7 @@
 # CanliPiyasaCLI
 
+Yorumlu bir şekilde Döviz,kripto para,borsa,altın,hisse gibi değerleri terminal üzerinden canlı şekilde izleyin!
+
 # Kurulum:
 
 chmod +x install.sh
