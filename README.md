@@ -1,4 +1,4 @@
-# CanliDoviz
+# CanliPiyasaCLI
 
 Kurulum:
 
