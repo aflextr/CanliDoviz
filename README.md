@@ -1,9 +1,22 @@
 # CanliPiyasaCLI
 
-Kurulum:
+# Kurulum:
 
-apt install python3 python3-pip
+chmod +x install.sh
 
-Çalıştırma:
+./install.sh
 
-pip3 install requests bs4 
+# Çalıştırma:
+
+python3 doviz.py
+
+# Bağımlılıklar:
+
+    requests
+    time
+    os
+    bs4
+
+***************************************
+# paratic.com'a Teşekkürler.
+***************************************
