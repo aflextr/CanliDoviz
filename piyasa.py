@@ -341,10 +341,15 @@ class Yorumlar(object):
         pass
     pass
 
-def ekranitemizle():
-    os.system("clear")
-    pass
 
+def ekranitemizle():
+    if os.name=="nt":
+        os.system("cls")
+        pass
+    else:
+        os.system("clear")
+        pass
+    pass
 
 
 
@@ -420,6 +425,7 @@ def main():
     print("3-BORSA")
     print("4-HİSSE SENETLERİ")
     print("5-KRİPTO PARALAR")
+    print("6-YENİLEME SANİYESİ")
     
     secim = int(input("SEÇİM : "))
     try:
@@ -438,6 +444,8 @@ def main():
         elif secim == 5:
             calistir.kripto()
             pass
+        elif secim == 6:
+            print("YAKINDA")
             pass
         else:
             print("Lütfen uygun değerleri giriniz.")
